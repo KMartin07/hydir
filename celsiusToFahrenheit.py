@@ -2,12 +2,12 @@ celsius = [32, 41, 23, 19, 34, 25, 29, 28, 17]
     
 fahrenheit = []
 
-def fahrenheitMaker(celsius):   
+def fahrenheitMaker():   
     for celsiusNumber in celsius:
         fahrenheitNumber = celsiusNumber * 1.8 + 32
         fahrenheit.append(fahrenheitNumber)
 
-fahrenheitMaker(celsius)
+fahrenheitMaker()
 
 print("Fahrenheit Temp Array:")
 print(fahrenheit)
@@ -34,4 +34,3 @@ print(avg_value)
 # def toFreedomUnits(celsiusTemp):
 ## define this function 
 # return freemdomTemp
-
